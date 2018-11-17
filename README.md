@@ -1,5 +1,5 @@
-**#Tanks  
-#A Java-Greenfoot-Game-Demonstrating-Design-Patterns.**
+**Tanks  
+A Java-Greenfoot-Game-Demonstrating-Design-Patterns.**
 
 Agile Values  
 Aditya -- Courage  
