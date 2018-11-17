@@ -2,12 +2,12 @@ Tanks
 A Java-Greenfoot-Game-Demonstrating-Design-Patterns.
 
 Agile Values  
-Aditya -- Courage 
+Aditya -- Courage  
 Sojan -- Communication 
-Manish -- Commitment 
-Devashish -- Respect 
+Manish -- Commitment  
+Devashish -- Respect  
 
-Project Research 
+Project Research  
 Manish:  
 Aditya: 
 Devashish: 
