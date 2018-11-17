@@ -6,7 +6,7 @@ What I did today:
 Had the first team meet.Came up with my idea of the game (Ludo simulator) and had a peer discussion.
 
 Team Member Name:  
-**Aditya Doshatti. 
+Aditya Doshatti .  
 What I did today: Came up with the idea of the game Harry potter theme and had a discussion with the team 
 
 Team Member Name
