@@ -8,10 +8,10 @@ Manish -- Commitment
 Devashish -- Respect  
 
 Project Research  
-Manish:  
-Aditya: 
-Devashish: 
-Sojan: 
+Manish:    
+Aditya:  
+Devashish:  
+Sojan:  
 
 Weekly Sprint report  
 
