@@ -3,8 +3,8 @@ A Java-Greenfoot-Game-Demonstrating-Design-Patterns.
 
 Agile Values  
 Aditya -- Courage  
-Sojan -- Communication 
-Manish -- Commitment 
+Sojan -- Communication  
+Manish -- Commitment  
 Devashish -- Respect  
 
 Project Research  
