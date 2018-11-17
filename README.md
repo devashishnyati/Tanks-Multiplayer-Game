@@ -7,7 +7,7 @@ Sojan -- Communication
 Manish -- Commitment
 Devashish -- Respect
 
-Project Research (see Wiki for more)
+Project Research
 Manish:
 Aditya:
 Devashish:
