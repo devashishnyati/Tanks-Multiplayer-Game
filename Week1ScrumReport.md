@@ -1,5 +1,5 @@
-**MADS Sprint#1** . 
-10-Nov-2018 . 
+**MADS Sprint#1**   
+10-Nov-2018   
 Team Member Name:  
 Manish Gangal.  
 What I did today: Had the first team meet.Came up with my idea of the game (Ludo simulator) and had a peer discussion.  
