@@ -43,9 +43,8 @@ Devashish Nyati .
 What I did since my last daily scrum:Came up with the overall design of the game . 
 What I Plan to do today:  Design the battleground and created wire frames . 
 
-Team Member Name:
-Sojan Mathew .
-What I did since my last daily scrum: Finalized  the  design patterns to be used in the game.
-
-What I plan to do today: Code the player ammunintions and lifespan part.
+Team Member Name:  
+Sojan Mathew  
+What I did since my last daily scrum: Finalized  the  design patterns to be used in the game  
+What I plan to do today: Code the player ammunintions and lifespan part.  
 
