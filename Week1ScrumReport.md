@@ -39,8 +39,8 @@ What I Plan to do today: Integrate the code with the server and repaired the fra
 Bottleneck: Frame loss.    
 
 Team Member Name:  
-Devashish Nyati .   
-What I did since my last daily scrum:Came up with the overall design of the game . 
+Devashish Nyati.   
+What I did since my last daily scrum:Came up with the overall design of the game.   
 What I Plan to do today:  Design the battleground and created wire frames . 
 
 Team Member Name:  
