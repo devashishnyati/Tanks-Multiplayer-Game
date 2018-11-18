@@ -12,7 +12,7 @@ What I plan to do today: Work on the client side code for the game.
 
 Team Member Name:   
 Devashish Nyati .  
-What I did today: Come up with the idea of the game (Squish theme) and had a discussion with the team.
+What I did today: Came up with the idea of the game (Squish theme) and had a discussion with the team.
 What I plan to do today:  work on the UI part of the game.    
 
 
