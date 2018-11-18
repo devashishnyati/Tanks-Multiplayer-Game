@@ -9,7 +9,7 @@ Aditya Doshatti .
 What I did today: Came up with the idea of the game Harry potter theme and had a discussion with the team 
 
 Team Member Name:  
-Devashish Nyati. 
+Devashish Nyati . 
 What I plan to do today:  Come up with the idea of the game (Squish theme) and had a discussion with the team.  
 
 
