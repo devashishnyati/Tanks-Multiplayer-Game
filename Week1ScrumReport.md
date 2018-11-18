@@ -46,5 +46,5 @@ What I Plan to do today:  Design the battleground and created wire frames .
 Team Member Name:  
 Sojan Mathew  
 What I did since my last daily scrum: Finalized  the  design patterns to be used in the game  
-What I plan to do today: Code the player ammunintions and lifespan part.  
+What I plan to do today: Create Myworld and relates actors along with ammunitions for the game. 
 
