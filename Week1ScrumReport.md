@@ -33,13 +33,13 @@ What I Plan to do today: Integrate it with the client side to check the simulati
 Bottlenecks: Frame loss while communicating with the client
 
 Team Member Name:
-Aditya Doshatti .
-What I did today: Implemented the client side code.
+Aditya Doshatti  
+What I did today: Implemented the client side code.  
 What I Plan to do today: Integrate the code with the server and repaired the frame loss.
-Bottleneck: Frame loss
+Bottleneck: Frame loss  
 
-Team Member Name:
-Devashish Nyati . 
+Team Member Name:  
+Devashish Nyati .   
 What I did since my last daily scrum:Came up with the overall design of the game . 
 What I Plan to do today:  Design the battleground and created wire frames . 
 
