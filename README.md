@@ -13,8 +13,8 @@ Aditya:
 Devashish:  
 Sojan:  
 
-Weekly Sprint report  
-[https://github.com/nguyensjsu/fa18-202-mads/blob/master/Week1ScrumReport.md] 
+[Weekly Sprint report](https://github.com/nguyensjsu/fa18-202-mads/blob/master/Week1ScrumReport.md)  
+
 
 Scrum Task Board and Burndown Chart 
 
