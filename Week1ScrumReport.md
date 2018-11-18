@@ -32,8 +32,8 @@ What I did since my last daily scrum: Implemented the server side code .
 What I Plan to do today: Integrate it with the client side to check the simulation on both ends . 
 Bottlenecks: Frame loss while communicating with the client
 
-Team Member Name:
-Aditya Doshatti  
+Team Member Name:  
+Aditya Doshatti.  
 What I did today: Implemented the client side code.  
 What I Plan to do today: Integrate the code with the server and repaired the frame loss.
 Bottleneck: Frame loss  
