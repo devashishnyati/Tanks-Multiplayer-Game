@@ -24,9 +24,9 @@ What I plan to do today: Getting familiar with the greenfoot engine and analyzin
 
 ******************************************************************************************************************************
 
-**MADS Sprint#2**
-17-Nov-2018
-Team Member Name:  
+**MADS Sprint#2** . 
+17-Nov-2018 . 
+Team Member Name:    
 Manish Gangal . 
 What I did since my last daily scrum: Implemented the server side code .
 What I Plan to do today: Integrate it with the client side to check the simulation on both ends . 
