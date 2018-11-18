@@ -36,7 +36,7 @@ Team Member Name:
 Aditya Doshatti.  
 What I did today: Implemented the client side code.  
 What I Plan to do today: Integrate the code with the server and repaired the frame loss.
-Bottleneck: Frame loss  
+Bottleneck: Frame loss.    
 
 Team Member Name:  
 Devashish Nyati .   
