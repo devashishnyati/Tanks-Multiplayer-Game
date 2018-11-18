@@ -16,6 +16,6 @@ Sojan:
 **[Weekly Sprint report](https://github.com/nguyensjsu/fa18-202-mads/blob/master/Week1ScrumReport.md)**    
 
 
-Scrum Task Board and Burndown Chart 
+**[Scrum Task Board and Burndown Chart](https://docs.google.com/spreadsheets/d/1aHEYlGdxIIqfPhSXmd-oqxi_ahS7H-e_cCPxXhACpis/edit#gid=102151741)**  
 
 
