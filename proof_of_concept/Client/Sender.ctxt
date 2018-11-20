@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Sender
+comment1.params=x\ y
+comment1.target=void\ sendData(int,\ int)
+numComments=2
