@@ -26,8 +26,8 @@ What I plan to do today: Getting familiar with the greenfoot engine and analyzin
 **MADS Sprint#2**  
 17-Nov-2018   
 Team Member Name:      
-Manish Gangal   
-What I did since my last daily scrum: Implemented the server side code .
+Manish Gangal  
+What I did since my last daily scrum: Implemented the server side code  
 What I Plan to do today: Integrate it with the client side to check the simulation on both ends . 
 Bottlenecks: Frame loss while communicating with the client
 
@@ -46,4 +46,34 @@ Team Member Name:
 Sojan Mathew  
 What I did since my last daily scrum: Finalized  the  design patterns to be used in the game  
 What I plan to do today: Create Myworld and relates actors along with ammunitions for the game. 
+
+
+******************************************************************************************************************************
+
+**MADS Sprint#3**  
+24-Nov-2018  
+Team Member Name:      
+Manish Gangal   
+What I did since my last daily scrum: Implemented the client server architecure and simulated the game on two different machines  
+What I Plan to do today: Implement the command pattern . 
+
+
+Team Member Name:  
+Aditya Doshatti.  
+What I did since my last daily scrum: Implemented the state pattern  and integrated the code with the server and repaired the frame loss.   
+What I Plan to do today: Implement the mediator pattern.
+    
+
+Team Member Name:  
+Devashish Nyati.   
+What I did since my last daily scrum: Implemented the score and health tracker to send updated status to the server.   
+What I Plan to do today:  Implement the observer pattern . 
+
+Team Member Name:  
+Sojan Mathew  
+What I did since my last daily scrum: Implemented collision detection and shooting bullets functionallity  
+What I plan to do today: Implement iterator pattern . 
+
+
+
 
