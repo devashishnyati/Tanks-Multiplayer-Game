@@ -13,7 +13,6 @@ public class DCommand implements Command {
         int y = this.actor.getY();
         
         this.actor.setLocation(x,y);
-        Sender.sendData(new XY(x,y));
     }
 
 }

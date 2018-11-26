@@ -15,16 +15,13 @@ public class Counter extends Actor
      */
     public void act() 
     {
-        setImage(new GreenfootImage("Health : " + health, 24, Color.GREEN, Color.BLACK));
+        setImage(new GreenfootImage("Health : " + Acceptor.xy.health[0], 24, Color.GREEN, Color.BLACK));
     } 
     
     public void reduceHealth()
     {
-        if(health >=10)
-        {
-            health = health - 10;
-        }
-        if (health == 0)
+        Acceptor.xy.deductHealth(10);
+        if (Acceptor.xy.health[Acceptor.xy.id] == 0)
         {
             
             MyWorld myworld = (MyWorld)getWorld();

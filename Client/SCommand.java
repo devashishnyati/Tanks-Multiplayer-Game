@@ -13,7 +13,6 @@ public class SCommand implements Command {
         int y = this.actor.getY()+2;
 
         this.actor.setLocation(x,y);
-        Sender.sendData(new XY(x,y));
     }
 
 }

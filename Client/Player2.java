@@ -15,10 +15,9 @@ public class Player2 extends Actor
     private Command fireCommand;
     
     public Player2(){
-        
-        GreenfootImage image = getImage();
-        image.scale(image.getWidth() - 100, image.getHeight() - 30);
-        setImage(image);
+        //GreenfootImage image = getImage();
+        //image.scale(image.getWidth() - 100, image.getHeight() - 30);
+        //setImage(image);
         
         this.wCommand = new WCommand(this);
         this.sCommand = new SCommand(this);
@@ -27,37 +26,37 @@ public class Player2 extends Actor
         this.fireCommand = new FireCommand(this);
     }
     
-    public void act() 
+    public void act()
     {
-        if(Acceptor.xy.id == 1){
-        
-            if(Greenfoot.isKeyDown("W")&&canMoveUp()) wCommand.execute();
-            if(Greenfoot.isKeyDown("S")&&canMoveDown()) sCommand.execute();
-            if(Greenfoot.isKeyDown("A")&&canMoveLeft()) aCommand.execute();
-            if(Greenfoot.isKeyDown("D")&&canMoveRight()) dCommand.execute();
-            if("space".equals(Greenfoot.getKey())) fireCommand.execute();
-        
-        }else{
-           int y = Acceptor.xy.y;
-           int x = Acceptor.xy.x;
-        
-           setLocation(x,y);
+        MyWorld myworld = (MyWorld)getWorld();
+        //if(myworld.current instanceof OngoingGameWorldState)
+        {
+            if(Acceptor.xy.id == 1){
+            
+                if(Greenfoot.isKeyDown("W")&&canMoveUp()) wCommand.execute();
+                if(Greenfoot.isKeyDown("S")&&canMoveDown()) sCommand.execute();
+                if(Greenfoot.isKeyDown("A")&&canMoveLeft()) aCommand.execute();
+                if(Greenfoot.isKeyDown("D")&&canMoveRight()) dCommand.execute();
+                if("space".equals(Greenfoot.getKey())) fireCommand.execute();
+                
+                Sender.sendData(new XY(getX(),getY(),Acceptor.xy.health));
+                
+                if(Acceptor.xy.x != -1)
+                {
+                        myworld.doOngoingGame();
+                }                    
+            
+            }else{
+               int y = Acceptor.xy.y;
+               int x = Acceptor.xy.x;
+            
+               setLocation(x,y);
+            }
         }
         
     }
     
-    public void move(){
-        if(Greenfoot.isKeyDown("W")&&canMoveUp()) wCommand.execute();
-        if(Greenfoot.isKeyDown("S")&&canMoveDown()) sCommand.execute();
-        if(Greenfoot.isKeyDown("A")&&canMoveLeft()) aCommand.execute();
-        if(Greenfoot.isKeyDown("D")&&canMoveRight()) dCommand.execute();
-        
-        int x = getX();
-        int y = getY();
-        
-        Sender.sendData(new XY(x,y));
-        
-    }
+  
      /**
      * Fire Bullets
      */

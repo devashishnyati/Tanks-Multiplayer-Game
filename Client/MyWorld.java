@@ -105,8 +105,6 @@ public class MyWorld extends World
     private void prepare2player()
     {
         addObject(counter, 100, 40);
-        Player1 player1 = new Player1();
-        addObject(player1,301,145);
         //Bear bear = new Bear();
         //addObject(bear,186,187);
         Player2 player2 = new Player2();

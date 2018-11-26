@@ -12,8 +12,21 @@ public class XY implements Serializable
     
     public XY(){}
     
-    public XY(int x,int y){
+    public XY(int x,int y,int[] health){
         this.x = x;
         this.y = y;
+        this.health = health;
+    }
+    
+    public void deductHealth(int h)
+    {
+        if(this.health[this.id] - h < 0){
+            this.health[this.id] = 0;
+        }
+        else
+        {
+        this.health[this.id] -= h;
+        }
+
     }
 }
