@@ -9,12 +9,14 @@ public class FirePacket implements Serializable
     public int direction;
     public int x;
     public int y;
+    public int count;
     
     public FirePacket(int x,int y,int direction)
     {
         this.direction = direction;
         this.x = x;
         this.y = y;
+        this.count = FirePacket.bulletCounter;
     }
 
 }

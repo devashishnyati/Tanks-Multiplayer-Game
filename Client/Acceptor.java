@@ -44,9 +44,9 @@ public class Acceptor extends Thread
                             Acceptor.xy.x = data.x;
                             Acceptor.xy.y = data.y;
                             Acceptor.xy.id = data. id;
-                        }else if(o instanceof FirePacket && Acceptor.bulletCount!=((FirePacket) o).bulletCounter){
+                        }else if(o instanceof FirePacket && Acceptor.bulletCount!=((FirePacket) o).count){
                                 FirePacket firePacket = (FirePacket) o;
-                                Acceptor.bulletCount = firePacket.bulletCounter;
+                                Acceptor.bulletCount = firePacket.count;
                                 Bullets bullet;
                                 Bullet2 bullet2;
                                 if(firePacket.direction==1){
