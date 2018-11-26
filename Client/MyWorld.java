@@ -10,6 +10,7 @@ public class MyWorld extends World
 {
     public static MyWorld mw;
     Counter counter = new Counter();
+    Counter2 counter2 = new Counter2();
     public static WorldState current;
     private WorldState prev;    
     private WorldState onGoing;
@@ -60,6 +61,10 @@ public class MyWorld extends World
     {
         return counter;
     }
+    public Counter2 getCounter2()
+    {
+        return counter2;
+    }
     
     public void doOngoingGame() {
        this.current.doOngoingGame();
@@ -105,6 +110,7 @@ public class MyWorld extends World
     private void prepare2player()
     {
         addObject(counter, 100, 40);
+        addObject(counter2, 400, 40);
         //Bear bear = new Bear();
         //addObject(bear,186,187);
         Player2 player2 = new Player2();
