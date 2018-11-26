@@ -15,6 +15,11 @@ public class Player2 extends Actor
     private Command fireCommand;
     
     public Player2(){
+        
+        GreenfootImage image = getImage();
+        image.scale(image.getWidth() - 70, image.getHeight() - 20);
+        setImage(image);
+        
         this.wCommand = new WCommand(this);
         this.sCommand = new SCommand(this);
         this.aCommand = new ACommand(this);
