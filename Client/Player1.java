@@ -26,21 +26,29 @@ public class Player1 extends Actor
         this.fireCommand = new FireCommand(this);
     }
     
-    public void act() 
+    public void act()
     {
-        if(Acceptor.xy.id == 0){
-        
-            if(Greenfoot.isKeyDown("W")&&canMoveUp()) wCommand.execute();
-            if(Greenfoot.isKeyDown("S")&&canMoveDown()) sCommand.execute();
-            if(Greenfoot.isKeyDown("A")&&canMoveLeft()) aCommand.execute();
-            if(Greenfoot.isKeyDown("D")&&canMoveRight()) dCommand.execute();
-            if("space".equals(Greenfoot.getKey())) fireCommand.execute();
-        
-        }else{
-           int y = Acceptor.xy.y;
-           int x = Acceptor.xy.x;
-        
-           setLocation(x,y);
+        MyWorld myworld = (MyWorld)getWorld();
+        if(myworld.current instanceof OngoingGameWorldState)
+        {
+            if(Acceptor.xy.id == 0){
+            
+                if(Greenfoot.isKeyDown("W")&&canMoveUp()) wCommand.execute();
+                if(Greenfoot.isKeyDown("S")&&canMoveDown()) sCommand.execute();
+                if(Greenfoot.isKeyDown("A")&&canMoveLeft()) aCommand.execute();
+                if(Greenfoot.isKeyDown("D")&&canMoveRight()) dCommand.execute();
+                if("space".equals(Greenfoot.getKey())) fireCommand.execute();
+                if(Acceptor.xy.x != -1)
+                {
+                        myworld.doOngoingGame();
+                }                    
+            
+            }else{
+               int y = Acceptor.xy.y;
+               int x = Acceptor.xy.x;
+            
+               setLocation(x,y);
+            }
         }
         
     }

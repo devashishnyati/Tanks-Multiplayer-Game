@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-
+    public static MyWorld mw;
     Counter counter = new Counter();
     public static WorldState current;
     private WorldState prev;    
@@ -23,6 +23,7 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1);
+        MyWorld.mw = this;
         onGoing = new OngoingGameWorldState(this);
         gameOver = new GameOverGameWorldState(this);
         waiting = new WaitingGameWorldState(this);
