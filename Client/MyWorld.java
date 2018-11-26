@@ -109,10 +109,11 @@ public class MyWorld extends World
     }
     private void prepare2player()
     {
+        removeObjects(getObjects(null));
         addObject(counter, 100, 40);
         addObject(counter2, 400, 40);
-        //Bear bear = new Bear();
-        //addObject(bear,186,187);
+        Player1 player1 = new Player1();
+        addObject(player1,101,190);
         Player2 player2 = new Player2();
         addObject(player2,241,206);
     }
