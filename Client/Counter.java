@@ -26,9 +26,10 @@ public class Counter extends Actor
         }
         if (health == 0)
         {
-            GameOver gameover = new GameOver();
+            
             MyWorld myworld = (MyWorld)getWorld();
-            getWorld().addObject(gameover, myworld.getWidth()/2, myworld.getHeight()/2);
+            myworld.doGameOver();
+            
         }
     }
     
