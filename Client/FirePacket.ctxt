@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=FirePacket
+comment1.params=x\ y\ direction
+comment1.target=FirePacket(int,\ int,\ int)
+numComments=2
