@@ -17,7 +17,7 @@ public class Player2 extends Actor
     public Player2(){
         
         GreenfootImage image = getImage();
-        image.scale(image.getWidth() - 70, image.getHeight() - 20);
+        image.scale(image.getWidth() - 100, image.getHeight() - 30);
         setImage(image);
         
         this.wCommand = new WCommand(this);
@@ -38,8 +38,8 @@ public class Player2 extends Actor
             if("space".equals(Greenfoot.getKey())) fireCommand.execute();
         
         }else{
-           int y = 300;//Acceptor.xy.y;
-           int x = 300;//Acceptor.xy.x;
+           int y = Acceptor.xy.y;
+           int x = Acceptor.xy.x;
         
            setLocation(x,y);
         }

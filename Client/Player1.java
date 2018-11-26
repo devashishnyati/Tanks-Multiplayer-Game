@@ -16,7 +16,7 @@ public class Player1 extends Actor
     
     public Player1(){
         GreenfootImage image = getImage();
-        image.scale(image.getWidth() - 70, image.getHeight() - 20);
+        image.scale(image.getWidth() - 100, image.getHeight() - 30);
         setImage(image);
         
         this.wCommand = new WCommand(this);

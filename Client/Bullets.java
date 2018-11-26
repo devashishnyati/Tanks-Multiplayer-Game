@@ -39,8 +39,6 @@ public class Bullets extends Actor
         
        else if(getX() >= getWorld().getWidth() - 1)   
        {
-           System.out.println(getX());
-           System.out.println(getWorld().getWidth() - 1);
             Explosion exp=new Explosion();
             getWorld().addObject(exp, getX(), getY());
             exp.act();
