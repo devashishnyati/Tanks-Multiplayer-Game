@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=XY
+comment1.params=
+comment1.target=XY()
+comment2.params=x\ y
+comment2.target=XY(int,\ int)
+numComments=3
