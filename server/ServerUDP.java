@@ -11,7 +11,7 @@ import java.net.SocketAddress;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ServerUDP extends Thread {
+public class ServerUDP extends Thread implements MediatorServer{
 
 	private DatagramSocket socket;
 	private DatagramSocket socket1;
@@ -84,7 +84,7 @@ public class ServerUDP extends Thread {
 
 	}
 
-	private byte[] getXY(XY xy, SocketAddress ip) throws IOException {
+	public byte[] getXY(XY xy, SocketAddress ip) throws IOException {
 		ByteArrayOutputStream bStream1 = new ByteArrayOutputStream();
 		ObjectOutput newoo = new ObjectOutputStream(bStream1);
 		xy.id = soAddressList.indexOf(ip);
@@ -95,7 +95,7 @@ public class ServerUDP extends Thread {
 		return newSerializedMessage;
 	}
 
-	private byte[] getFirePacket(FirePacket firePacket) throws IOException {
+	public byte[] getFirePacket(FirePacket firePacket) throws IOException {
 
 		ByteArrayOutputStream bStream1 = new ByteArrayOutputStream();
 		ObjectOutput newoo = new ObjectOutputStream(bStream1);
