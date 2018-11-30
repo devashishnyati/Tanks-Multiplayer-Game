@@ -28,9 +28,11 @@ public class Bullets extends Actor
          
        if(b != null)
         {
-            Explosion exp=new Explosion();
+            Explosions exp=new Explosions();
             getWorld().addObject(exp, getX(), getY());
-            exp.act();
+             exp.showExplosion();
+        
+           // exp.act();
             MyWorld myworld = (MyWorld)getWorld();
             Counter counter = myworld.getCounter();
             counter.reduceHealth();
@@ -39,9 +41,10 @@ public class Bullets extends Actor
         
        else if(getX() >= getWorld().getWidth() - 1)   
        {
-            Explosion exp=new Explosion();
+            Explosions exp=new Explosions();
             getWorld().addObject(exp, getX(), getY());
-            exp.act();
+           // exp.act();
+           exp.showExplosion();
             getWorld().removeObject(this);  
         }
     }

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ImageIteratorImpl
+comment0.text=\n\ Write\ a\ description\ of\ class\ ExplosionIteratorImpl\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=ImageIteratorImpl()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ ExplosionIteratorImpl\n
+comment2.params=images
+comment2.target=ImageIteratorImpl(greenfoot.GreenfootImage[])
+comment3.params=
+comment3.target=greenfoot.GreenfootImage\ next()
+comment4.params=
+comment4.target=greenfoot.GreenfootImage\ currentImage()
+comment5.params=
+comment5.target=boolean\ isDone()
+numComments=6
