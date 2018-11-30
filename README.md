@@ -7,6 +7,7 @@ A Java-Greenfoot-Game-Demonstrating-Design-Patterns.**
 ### **Sojan -- Communication**  
 We had a whatsapp group where we would communicate daily and update our work and decide the tasks for the next day. We would discuss the problems being faced by each other. I would communicate with each of the memmber to make sure everyone is updated with the current status.  
 ### **Manish -- Simplicity** 
+I made sure that everyone adhered to their task by doing exactly what was needed to accomplish the goals set by the team. This helped us in developing a clean code with less conflicts.
 
 ### **Devashish -- Respect**  
  
