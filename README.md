@@ -1,17 +1,15 @@
 **Tanks  
 A Java-Greenfoot-Game-Demonstrating-Design-Patterns.**
 
-Agile Values  
-Aditya -- Courage  
-Sojan -- Communication  
-Manish -- Commitment  
-Devashish -- Respect  
+# Agile Values  
+### **Aditya -- Courage**  
 
-Project Research  
-Manish:    
-Aditya:  
-Devashish:  
-Sojan:  
+### **Sojan -- Communication**  
+We had a whatsapp group where we would communicate daily and update our work and decide the tasks for the next day. We would discuss the problems being faced by each other. I would communicate with each of the memmber to make sure everyone is updated with the current status.  
+### **Manish -- Simplicity** 
+
+### **Devashish -- Respect**  
+ 
 
 **[Weekly Sprint report](https://github.com/nguyensjsu/fa18-202-mads/blob/master/WeeklyScrumReport.md)**    
 
