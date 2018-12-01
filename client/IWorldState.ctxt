@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=IWorldState
+comment1.params=
+comment1.target=void\ doOngoingGame()
+comment2.params=
+comment2.target=void\ doPause()
+comment3.params=
+comment3.target=void\ doGameOver()
+numComments=4

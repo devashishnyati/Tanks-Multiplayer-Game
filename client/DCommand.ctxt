@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DCommand
+comment1.params=actor
+comment1.target=DCommand(greenfoot.Actor)
+comment2.params=
+comment2.target=void\ execute()
+numComments=3

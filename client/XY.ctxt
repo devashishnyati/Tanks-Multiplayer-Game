@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=XY
+comment1.params=
+comment1.target=XY()
+comment2.params=x\ y\ health
+comment2.target=XY(int,\ int,\ int[])
+comment3.params=h
+comment3.target=void\ deductHealth(int)
+comment4.params=h
+comment4.target=void\ deductHealth2(int)
+numComments=5

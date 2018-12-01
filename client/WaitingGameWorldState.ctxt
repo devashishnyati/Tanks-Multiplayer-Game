@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=WaitingGameWorldState
+comment0.text=\n\ Write\ a\ description\ of\ class\ WaitingGameWorldState\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=myWorld
+comment1.target=WaitingGameWorldState(MyWorld)
+comment2.params=
+comment2.target=void\ doGameOver()
+comment3.params=
+comment3.target=void\ doOngoingGame()
+numComments=4

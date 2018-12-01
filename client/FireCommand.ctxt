@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=FireCommand
+comment1.params=actor
+comment1.target=FireCommand(greenfoot.Actor)
+comment2.params=
+comment2.target=void\ execute()
+numComments=3
