@@ -3,6 +3,7 @@ A Java-Greenfoot-Game-Demonstrating-Design-Patterns.**
 
 # Agile Values  
 ### **Aditya -- Courage**  
+I took weekly updates from the team and made sure everyone was upfront about their tasks. I ensured that no one was left out in the team and was able to express his failures without any fear
 
 ### **Sojan -- Communication**  
 We had a whatsapp group where we would communicate daily and update our work and decide the tasks for the next day. We would discuss the problems being faced by each other. I would communicate with each of the memmber to make sure everyone is updated with the current status.  
