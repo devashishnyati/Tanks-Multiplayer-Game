@@ -1,4 +1,4 @@
-public class WorldState extends IWorldState  
+public class WorldState implements IWorldState  
 {
    
     MyWorld my_world;
