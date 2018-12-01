@@ -74,6 +74,33 @@ Sojan Mathew
 What I did since my last daily scrum: Implemented collision detection and shooting bullets functionallity  
 What I plan to do today: Implement iterator pattern . 
 
+******************************************************************************************************************************
+
+
+**MADS Sprint#4**  
+30-Nov-2018  
+Team Member Name:      
+Manish Gangal   
+What I did since my last daily scrum: Implemented the command pattern  
+What I Plan to do today: Draw Class Diagram . 
+
+
+Team Member Name:  
+Aditya Doshatti.  
+What I did since my last daily scrum: Implemented the mediator pattern.   
+What I Plan to do today: Draw Actvity diagram.
+    
+
+Team Member Name:  
+Devashish Nyati.   
+What I did since my last daily scrum: Implemented the observer pattern.   
+What I Plan to do today:  Draw sequence diagram . 
+
+Team Member Name:  
+Sojan Mathew  
+What I did since my last daily scrum: Implemented the iterator pattern  
+What I plan to do today: Draw use case diagram . 
+
 
 
 
