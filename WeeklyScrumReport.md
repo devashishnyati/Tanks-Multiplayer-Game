@@ -80,7 +80,7 @@ What I plan to do today: Implement iterator pattern .
 **MADS Sprint#4**  
 30-Nov-2018  
 Team Member Name:      
-Manish Gangal   
+Manish Gangal.
 What I did since my last daily scrum: Implemented the command pattern  
 What I Plan to do today: Draw Class Diagram . 
 
