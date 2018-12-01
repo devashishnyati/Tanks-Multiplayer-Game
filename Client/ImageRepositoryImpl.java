@@ -18,9 +18,10 @@ public class ImageRepositoryImpl implements ImageRepository
      */
     public ImageRepositoryImpl()
     {
-        images=new GreenfootImage[2];
+        images=new GreenfootImage[3];
         images[0]=new GreenfootImage("explosion 1.png");
-        images[1]=new GreenfootImage("explosion 2.png");
+        images[1]=new GreenfootImage("explosion 1.png");
+        images[2]=new GreenfootImage("explosion 2.png");
         System.out.println("inside repository "+images.length);
         
     }

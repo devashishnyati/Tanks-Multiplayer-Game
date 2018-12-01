@@ -8,6 +8,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Counter2 extends Actor
 {
+    
+    public Counter2(Player2 subject){
+        subject.attach(this);
+    
+    }
     /**
      * Act - do whatever the Counter2 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -19,9 +24,9 @@ public class Counter2 extends Actor
     
     public void reduceHealth()
     {
-        if (Acceptor.xy.health[Acceptor.xy.id] >= 10)
-        Acceptor.xy.deductHealth(10);
-        if (Acceptor.xy.health[Acceptor.xy.id] == 0)
+        if (Acceptor.xy.health[1] >= 10)
+        Acceptor.xy.deductHealth2(10);
+        if (Acceptor.xy.health[1] == 0)
         {
             
             MyWorld myworld = (MyWorld)getWorld();

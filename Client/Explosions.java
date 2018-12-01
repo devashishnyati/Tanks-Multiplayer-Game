@@ -1,5 +1,6 @@
 import greenfoot.*;
 import java.awt.*;
+
 /**
  * Write a description of class Explosions here.
  * 
@@ -9,9 +10,10 @@ import java.awt.*;
 public class Explosions  extends Actor
 {
     // instance variables - replace the example below with your own
-    private int life=20;
+    private int life=30;
 private GreenfootImage[] explosions;
 private int ExplosionType;
+GreenfootSound sound = new GreenfootSound("Explo Classic.wav");
 
     /**
      * Constructor for objects of class Explosions
@@ -34,10 +36,11 @@ public void showExplosion()
     ImageRepository imageRepo= new ImageRepositoryImpl();
     ImageIterator iter =  imageRepo.createIterator();
   System.out.println("outside Iterator"+iter.isDone());
- life--;
+
  if(life >0)
  {   while(!iter.isDone())
-    {
+    { life--;
+       
         System.out.println("inside  Iterator"+iter.currentImage());
       
          GreenfootImage myImage;
@@ -45,12 +48,23 @@ public void showExplosion()
 
       
         this.setImage(myImage);
+      
+    
+        System.out.println("Life"+life);
         iter.next();
+       
+        
     }
   
 }
-else
-    getWorld().removeObject(this);
+else{
+sound.play();
+  getWorld().removeObject(this);
 }
 
+
+ 
+
+
+}
 }

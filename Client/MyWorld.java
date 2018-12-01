@@ -8,9 +8,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
+    GreenfootSound sound = new GreenfootSound("Marimba Boy.wav");
     public static MyWorld mw;
-    Counter counter = new Counter();
-    Counter2 counter2 = new Counter2();
+    Player1 player1 = new Player1();
+    Player2 player2 = new Player2();
+    Counter counter = new Counter(player1);
+    Counter2 counter2 = new Counter2(player2);
     public static WorldState current;
     private WorldState prev;    
     private WorldState onGoing;
@@ -23,7 +26,7 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1);
+        super(800, 600, 1);
         MyWorld.mw = this;
         onGoing = new OngoingGameWorldState(this);
         gameOver = new GameOverGameWorldState(this);
@@ -35,6 +38,7 @@ public class MyWorld extends World
     }
     
     public void act(){
+        BackMusic();
         prepare();
     }
     
@@ -97,9 +101,16 @@ public class MyWorld extends World
     private void prepareWaiting()
     {
         Waiting waiting = new Waiting();
-        Player1 player1 = new Player1();
-        addObject(player1,101,190);
-        this.addObject(waiting, 351, 190);
+        //Player1 player1 = new Player1();
+        addObject(player1,100,300);
+        
+        //For Testing
+        //addObject(counter, 200, 40);
+        //addObject(counter2, 500, 40);
+        //addObject(player2,700,300);
+        
+        
+        this.addObject(waiting, 400, 300);
     }
     
     private void prepareGameOver()
@@ -110,11 +121,14 @@ public class MyWorld extends World
     private void prepare2player()
     {
         removeObjects(getObjects(null));
-        addObject(counter, 100, 40);
-        addObject(counter2, 400, 40);
-        Player1 player1 = new Player1();
-        addObject(player1,101,190);
-        Player2 player2 = new Player2();
-        addObject(player2,241,206);
+        addObject(counter, 200, 40);
+        addObject(counter2, 500, 40);
+        //Player1 player1 = new Player1();
+        addObject(player1,100,300);
+        //Player2 player2 = new Player2();
+        addObject(player2,700,300);
+    }
+    public void BackMusic(){
+        sound.playLoop();
     }
 }

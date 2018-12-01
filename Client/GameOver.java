@@ -10,6 +10,15 @@ public class GameOver extends Actor
 {
     public GameOver()
     {
-        setImage(new GreenfootImage(" Game Over ", 48, Color.WHITE, Color.BLACK));
+        String displayMsg = "";
+        if (Acceptor.xy.health[0] == 0)
+            displayMsg += "Player 2 Wins";
+
+         if (Acceptor.xy.health[1] == 0)
+
+        if (Acceptor.xy.health[1] == 0)
+
+            displayMsg += "Player 1 Wins";
+        setImage(new GreenfootImage(displayMsg, 48, Color.WHITE, Color.BLACK));
     }
 }

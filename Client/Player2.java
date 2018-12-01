@@ -1,4 +1,5 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
+import java.util.* ;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * Write a description of class Ele here.
@@ -13,6 +14,7 @@ public class Player2 extends Actor
     private Command aCommand;
     private Command dCommand;
     private Command fireCommand;
+    private List<Counter2> observers = new ArrayList<Counter2>();
     
     public Player2(){
         GreenfootImage image = getImage();
@@ -29,6 +31,7 @@ public class Player2 extends Actor
     public void act()
     {
         MyWorld myworld = (MyWorld)getWorld();
+        hitBulletDetection();
         //if(myworld.current instanceof OngoingGameWorldState)
         {
             if(Acceptor.xy.id == 1){
@@ -37,7 +40,8 @@ public class Player2 extends Actor
                 if(Greenfoot.isKeyDown("S")&&canMoveDown()) sCommand.execute();
                 if(Greenfoot.isKeyDown("A")&&canMoveLeft()) aCommand.execute();
                 if(Greenfoot.isKeyDown("D")&&canMoveRight()) dCommand.execute();
-                if("space".equals(Greenfoot.getKey())) fireCommand.execute();
+                if (!(myworld.current instanceof GameOverGameWorldState))
+                    if("space".equals(Greenfoot.getKey())) fireCommand.execute();
                 
                 Sender.sendData(new XY(getX(),getY(),Acceptor.xy.health));
                 
@@ -122,6 +126,32 @@ public class Player2 extends Actor
         }
         return canMoveUp;
     }
+    
+    public void hitBulletDetection(){
+        Actor p2 = getOneIntersectingObject(Bullets.class);
+        
+        if(p2 != null)
+        {
+           Explosions exp=new Explosions();
+            getWorld().addObject(exp, getX(), getY());
+             exp.showExplosion();
+            MyWorld myworld = (MyWorld)getWorld();
+            //Counter2 counter = myworld.getCounter2();
+            notifyAllObservers();
+            getWorld().removeObject(getOneIntersectingObject(Bullets.class));
+        }
+    }
+    
+    public void attach(Counter2 counter){
+      observers.add(counter);		
+   }
+   
+   public void notifyAllObservers(){
+      for (Counter2 observer : observers) {
+          System.out.println("Counter 2 observer");
+         observer.reduceHealth();
+      }
+   } 
     
     
 }

@@ -1,4 +1,5 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*; 
+import java.util.* ;// (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * Write a description of class Ele here.
@@ -13,6 +14,7 @@ public class Player1 extends Actor
     private Command aCommand;
     private Command dCommand;
     private Command fireCommand;
+    private List<Counter> observers = new ArrayList<Counter>();
     
     public Player1(){
         GreenfootImage image = getImage();
@@ -24,11 +26,13 @@ public class Player1 extends Actor
         this.aCommand = new ACommand(this);
         this.dCommand = new DCommand(this);
         this.fireCommand = new FireCommand(this);
+
     }
     
     public void act()
     {
         MyWorld myworld = (MyWorld)getWorld();
+        hitBulletDetection();
         //if(myworld.current instanceof OngoingGameWorldState)
         {
             if(Acceptor.xy.id == 0){
@@ -37,7 +41,8 @@ public class Player1 extends Actor
                 if(Greenfoot.isKeyDown("S")&&canMoveDown()) sCommand.execute();
                 if(Greenfoot.isKeyDown("A")&&canMoveLeft()) aCommand.execute();
                 if(Greenfoot.isKeyDown("D")&&canMoveRight()) dCommand.execute();
-                if("space".equals(Greenfoot.getKey())) fireCommand.execute();
+                if (!(myworld.current instanceof GameOverGameWorldState))
+                    if("space".equals(Greenfoot.getKey())) fireCommand.execute();
                 
                 Sender.sendData(new XY(getX(),getY(),Acceptor.xy.health));
                 if(Acceptor.xy.x != -1)
@@ -123,6 +128,28 @@ public class Player1 extends Actor
         }
         return canMoveUp;
     }
+    public void hitBulletDetection(){
+        Actor p1 = getOneIntersectingObject(Bullet2.class);
+        
+        if(p1 != null)
+        {
+           Explosions exp=new Explosions();
+            getWorld().addObject(exp, getX(), getY());
+             exp.showExplosion();
+            MyWorld myworld = (MyWorld)getWorld();
+            notifyAllObservers();
+            getWorld().removeObject(getOneIntersectingObject(Bullet2.class));
+        }
+    }
     
+    public void attach(Counter counter){
+      observers.add(counter);		
+   }
+   
+   public void notifyAllObservers(){
+      for (Counter observer : observers) {
+         observer.reduceHealth();
+      }
+   } 
     
 }

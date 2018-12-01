@@ -20,12 +20,24 @@ public class XY implements Serializable
     
     public void deductHealth(int h)
     {
-        if(this.health[this.id] - h < 0){
-            this.health[this.id] = 0;
+        if(this.health[0] - h < 0){
+            this.health[0] = 0;
         }
         else
         {
-        this.health[this.id] -= h;
+        this.health[0] -= h;
+        }
+
+    }
+    
+    public void deductHealth2(int h)
+    {
+        if(this.health[1] - h < 0){
+            this.health[1] = 0;
+        }
+        else
+        {
+        this.health[1] -= h;
         }
 
     }

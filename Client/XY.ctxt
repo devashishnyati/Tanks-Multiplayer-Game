@@ -6,4 +6,6 @@ comment2.params=x\ y\ health
 comment2.target=XY(int,\ int,\ int[])
 comment3.params=h
 comment3.target=void\ deductHealth(int)
-numComments=4
+comment4.params=h
+comment4.target=void\ deductHealth2(int)
+numComments=5
