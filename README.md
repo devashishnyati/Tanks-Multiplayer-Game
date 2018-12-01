@@ -27,5 +27,5 @@ Everyone's opionion in our team was valued and repected. We proceeded only after
 #### Use Case Diagram  
 <img width="1201" alt="usecasediagram" src="https://user-images.githubusercontent.com/42900784/49323810-51f52880-f4d6-11e8-8d18-3f7f6f264367.png">
 
-<img width="1201" alt="sequencediagram" src="hhttps://github.com/nguyensjsu/fa18-202-mads/blob/master/UML%20Diagrams/SequenceDiagramTanks.png">
+<img width="1201" alt="sequencediagram" src="https://github.com/nguyensjsu/fa18-202-mads/blob/master/UML%20Diagrams/SequenceDiagramTanks.png">
 
