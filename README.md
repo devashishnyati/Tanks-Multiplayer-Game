@@ -21,4 +21,5 @@ I made sure that everyone adhered to their task by doing exactly what was needed
 
 **UML Diagrams**
 
-![alt Activity Diagram] (ActivityDiagramTanks.png)
+![Activity Diagram Tanks](https://user-images.githubusercontent.com/42703118/49323796-d5fae080-f4d5-11e8-8911-f4ac58bf204c.png)
+
