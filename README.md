@@ -11,6 +11,7 @@ We had a whatsapp group where we would communicate daily and update our work and
 I made sure that everyone adhered to their task by doing exactly what was needed to accomplish the goals set by the team. This helped us in developing a clean code with less conflicts.
 
 ### **Devashish -- Respect**  
+Everyone's opionion in our team was valued and repected. We proceeded only after everyone was on the same page on a discussion. I ensured that all members respected each others inputs and idea about how we should take the project ahead.
  
 
 **[Weekly Sprint report](https://github.com/nguyensjsu/fa18-202-mads/blob/master/WeeklyScrumReport.md)**    
