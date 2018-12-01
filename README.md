@@ -28,5 +28,8 @@ Everyone's opionion in our team was valued and repected. We proceeded only after
 <img width="1201" alt="usecasediagram" src="https://user-images.githubusercontent.com/42900784/49323810-51f52880-f4d6-11e8-8d18-3f7f6f264367.png">
 
 #### Sequence Diagram  
-<img width="1201" alt="sequencediagram" src="https://github.com/nguyensjsu/fa18-202-mads/blob/master/UML%20Diagrams/SequenceDiagramTanks.png">
+<img width="1201" alt="sequencediagram" src="https://github.com/nguyensjsu/fa18-202-mads/blob/master/UML%20Diagrams/SequenceDiagramTanks.png">  
+
+#### Class Diagram  
+<img width="1060" alt="classdiagram" src="https://user-images.githubusercontent.com/20052329/49325600-38fe6e80-f4fa-11e8-905b-703b21c2450f.png">
 
