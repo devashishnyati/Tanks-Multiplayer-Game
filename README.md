@@ -19,7 +19,10 @@ I made sure that everyone adhered to their task by doing exactly what was needed
 **[Scrum Task Board and Burndown Chart](https://docs.google.com/spreadsheets/d/1aHEYlGdxIIqfPhSXmd-oqxi_ahS7H-e_cCPxXhACpis/edit#gid=102151741)**  
 
 
-**UML Diagrams**
+### **UML Diagrams**
 
-![Activity Diagram Tanks](https://user-images.githubusercontent.com/42703118/49323796-d5fae080-f4d5-11e8-8911-f4ac58bf204c.png)
+![Activity Diagram Tanks](https://user-images.githubusercontent.com/42703118/49323796-d5fae080-f4d5-11e8-8911-f4ac58bf204c.png)  
+
+#### Use Case Diagram  
+<img width="1201" alt="usecasediagram" src="https://user-images.githubusercontent.com/42900784/49323810-51f52880-f4d6-11e8-8d18-3f7f6f264367.png">
 
